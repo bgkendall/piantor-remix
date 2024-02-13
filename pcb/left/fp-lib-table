@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "_Project Library")(type "KiCad")(uri "${KIPRJMOD}/library/footprints.pretty")(options "")(descr ""))
+  (lib (name "♥Project_Library")(type "KiCad")(uri "${KIPRJMOD}/library/footprints.pretty")(options "")(descr ""))
   (lib (name "beekeeb_lib")(type "KiCad")(uri "${KIPRJMOD}/../../Keebio-Parts.pretty")(options "")(descr ""))
 )
