@@ -1,5 +1,7 @@
 (footprint "RollerEncoder_Panasonic_EVQWGD001" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Panasonic horizontal roller encoder (from https://github.com/howardt12345/rollyboi9000000 — see also https://github.com/rroels/EVQWGD001-Pinout )")
+  (tags "roller encoder")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))

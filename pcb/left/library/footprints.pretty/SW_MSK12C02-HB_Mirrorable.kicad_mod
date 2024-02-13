@@ -1,6 +1,6 @@
 (footprint "SW_MSK12C02-HB_Mirrorable" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "12V 50mA SMD toggle switch, available at LCSC/JLCPCB (C431541)")
+  (descr "12V 50mA SMD toggle switch, with one guide boss hole removed to avoid duplicate drills when stacked on opposite sides (adapted from https://github.com/ebastler/marbastlib )")
   (tags "switch toggle smd ")
   (attr smd)
   (fp_text reference "REF**" (at 0 4 unlocked) (layer "F.SilkS")

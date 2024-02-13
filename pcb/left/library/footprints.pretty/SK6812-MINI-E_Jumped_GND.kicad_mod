@@ -1,5 +1,7 @@
 (footprint "SK6812-MINI-E_Jumped_GND" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "SK6812-MINI-E RGB LEB footprint with split ground pad to allow LED leg to act as jumper on reversible boards (adapted from https://github.com/keebio/Keebio-Parts.pretty )")
+  (tags "LED RGB")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 2.1 unlocked) (layer "F.SilkS")
       (effects (font (size 0.7 0.7) (thickness 0.15)))

@@ -1,6 +1,6 @@
 (footprint "D_SOD-123" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "SOD-123")
+  (descr "SOD-123 (based on KiCad version with larger pads and smaller silkscreen)")
   (tags "SOD-123")
   (attr smd)
   (fp_text reference "REF**" (at 0 1.6) (layer "F.SilkS")
