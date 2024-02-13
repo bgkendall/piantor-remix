@@ -2784,8 +2784,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 325.12 162.56 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 325.12 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 02613d1f-4b51-48bd-9064-cde772460dd5)
     (property "Reference" "K35" (at 325.12 157.48 0)
       (effects (font (size 1.524 1.524)))
@@ -3286,7 +3286,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 294.64 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 294.64 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2676e880-31c4-4bb9-8f83-b5559a2872ee)
     (property "Reference" "K24" (at 294.64 139.7 0)
@@ -3336,7 +3336,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 172.72 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 172.72 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cd2ee6e-af2a-43ce-aa7e-58b5c17fc3c8)
     (property "Reference" "K00" (at 172.72 104.14 0)
@@ -3443,8 +3443,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 325.12 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 325.12 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 37353a87-fcd6-4c4c-b000-b22bbb779526)
     (property "Reference" "K15" (at 325.12 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -3693,7 +3693,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 264.16 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 264.16 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54806f1f-1157-4537-9759-fe03678c206a)
     (property "Reference" "K03" (at 264.16 104.14 0)
@@ -3887,7 +3887,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 233.68 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59d46e01-3370-45c0-b655-67e30d4bd9cb)
     (property "Reference" "K02" (at 233.68 104.14 0)
@@ -3913,8 +3913,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 203.2 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 203.2 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c3d7d74-dde3-4ed7-8c8b-9834e1dad91c)
     (property "Reference" "K11" (at 203.2 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -3996,7 +3996,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 233.68 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 636461a5-0da4-400a-8dd0-5a82fb0d2ee5)
     (property "Reference" "K22" (at 233.68 139.7 0)
@@ -4164,7 +4164,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 294.64 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 294.64 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 755e8e34-c13a-49be-8e1b-546c6909cfb1)
     (property "Reference" "K04" (at 294.64 104.14 0)
@@ -4348,8 +4348,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 264.16 162.56 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 264.16 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 80483bad-ef9f-4cca-b0e9-d32213f420fd)
     (property "Reference" "K33" (at 264.16 157.48 0)
       (effects (font (size 1.524 1.524)))
@@ -4796,7 +4796,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 172.72 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 172.72 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dd6772e-ed36-40d9-bc93-987b987d9bc6)
     (property "Reference" "K20" (at 172.72 139.7 0)
@@ -4943,7 +4943,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 264.16 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 264.16 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae094f5a-31e9-43f5-8696-6f737f440fd7)
     (property "Reference" "K23" (at 264.16 139.7 0)
@@ -4969,8 +4969,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 172.72 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 172.72 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b4241be9-1d03-4b7d-96ed-4ef26aa15e0b)
     (property "Reference" "K10" (at 172.72 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -4995,7 +4995,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 203.2 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 203.2 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5cead6f-dcdf-499e-bfad-67a021a50a6a)
     (property "Reference" "K01" (at 203.2 102.87 0)
@@ -5210,7 +5210,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 325.12 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 325.12 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba70a6bc-91cd-4f4c-a9c1-72f89e525e44)
     (property "Reference" "K25" (at 325.12 139.7 0)
@@ -5300,8 +5300,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 294.64 162.56 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 294.64 162.56 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid beda58ac-1604-4e5a-89ad-445a2aabcd6d)
     (property "Reference" "K34" (at 294.64 157.48 0)
       (effects (font (size 1.524 1.524)))
@@ -5553,8 +5553,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 294.64 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 294.64 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ca92f715-dac0-40a6-8a8b-22a004805340)
     (property "Reference" "K14" (at 294.64 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -5748,8 +5748,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 264.16 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 264.16 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid dbf82bf7-7033-48e5-8df3-0fec63fdd5c1)
     (property "Reference" "K13" (at 264.16 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -5804,7 +5804,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 203.2 144.78 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 203.2 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0e7955b-d8e1-40e6-8c21-1d8aac3d0cb0)
     (property "Reference" "K21" (at 203.2 139.7 0)
@@ -5830,8 +5830,8 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 233.68 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Switch:SW_Push") (at 233.68 127 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid e1456dda-1219-4005-a3f9-7f00ce771756)
     (property "Reference" "K12" (at 233.68 121.92 0)
       (effects (font (size 1.524 1.524)))
@@ -6062,7 +6062,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 325.12 109.22 0) (mirror y) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 325.12 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff511afa-d055-4ed4-b8a5-ae74b212421e)
     (property "Reference" "K05" (at 325.12 104.14 0)
