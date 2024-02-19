@@ -5308,7 +5308,7 @@
     (property "Value" "Flippable RP2040 ProMicro/nice!nano" (at 72.39 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_marbastlib-xp-promicroish:ProMicro_USBup" (at 71.12 80.01 0)
+    (property "Footprint" "♥Project_Library:ProMicro_Battery_Reversible" (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 58.42 38.1 0)
