@@ -243,7 +243,7 @@
   (pad "2" smd roundrect (at 3.245 -5.95 180) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp bdea63f8-971a-4b66-83c5-e6b1c73f4c0a))
   (pad "2" smd roundrect (at 3.245 5.95 180) (size 2.65 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1) (tstamp 3b9b520d-fbc8-40ff-99fe-994cb2b22ec4))
   (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_Kailh_Choc.step"
-    (offset (xyz -5 -3.75 0.12))
+    (offset (xyz -10 6 0.12))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
   )
