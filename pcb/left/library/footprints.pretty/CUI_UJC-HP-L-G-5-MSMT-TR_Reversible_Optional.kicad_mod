@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f60b7503-03a9-437d-9076-d06be5741835)
   )
-  (fp_text value "CUI_UJC-HP-L-G-5-MSMT-TR" (at 8.915 -6.135) (layer "F.Fab")
+  (fp_text value "CUI_UJC-HP-L-G-5-MSMT-TR" (at 0 -6.135) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2855678b-94f6-4ce7-a8a5-e0cdf07c60d0)
   )
