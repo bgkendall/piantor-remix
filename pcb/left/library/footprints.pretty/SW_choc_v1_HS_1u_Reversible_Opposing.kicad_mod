@@ -1,6 +1,6 @@
 (footprint "SW_choc_v1_HS_1u_Reversible_Opposing" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Hotswap footprint for Kailh Choc style switches on reversible PCB (sockets on opposing sides) (from https://github.com/ebastler/marbastlib )")
+  (descr "Hotswap footprint for Kailh Choc style switches on reversible PCB (sockets on opposing sides) (adapted from https://github.com/ebastler/marbastlib )")
   (tags "keyboard choc hot-swap")
   (attr smd)
   (fp_text reference "REF**" (at -4.25 -6.25) (layer "F.SilkS")
