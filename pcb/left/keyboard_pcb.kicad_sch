@@ -2803,6 +2803,13 @@
     )
   )
 
+  (netclass_flag "" (length 2.54) (shape round) (at 55.88 96.52 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 719bd701-c89e-4677-a181-022c481b5f4e)
+    (property "Netclass" "PWR" (at 56.5785 93.98 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
   (netclass_flag "" (length 2.54) (shape round) (at 38.1 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9fb05597-a472-4483-969f-b1914331ff39)
@@ -4358,31 +4365,6 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "右D00") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 91.44 223.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8c2af25b-c73d-4f03-bc50-e69602405290)
-    (property "Reference" "#PWR08" (at 91.44 229.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 91.44 228.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 91.44 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 91.44 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 12b5fa4d-b31d-448a-b6df-0f0849bb9705))
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5962,6 +5944,31 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "左D03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_1") (lib_id "power:GND") (at 91.44 223.52 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fcb8e43f-c25e-4950-8516-0c673a5e9a3c)
+    (property "Reference" "#PWR06" (at 91.44 229.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 91.44 228.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.44 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 223.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d91d8c09-12f8-4127-abd6-eba35c81ccf7))
+    (instances
+      (project "keyboard_pcb"
+        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
