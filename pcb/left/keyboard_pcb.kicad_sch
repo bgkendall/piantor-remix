@@ -2803,6 +2803,21 @@
     )
   )
 
+  (netclass_flag "" (length 2.54) (shape round) (at 38.1 104.14 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9fb05597-a472-4483-969f-b1914331ff39)
+    (property "Netclass" "PWR" (at 38.7985 101.6 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+  (netclass_flag "" (length 2.54) (shape round) (at 35.56 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c35d2724-b010-46f6-9aef-81755e4b351a)
+    (property "Netclass" "PWR" (at 36.2585 96.52 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
+    )
+  )
+
   (symbol (lib_id "Switch:SW_Push") (at 325.12 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02613d1f-4b51-48bd-9064-cde772460dd5)
@@ -3013,7 +3028,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b8149be-01bb-4a18-b4c2-eb6645429e5a)
-    (property "Reference" "左J1" (at 25.4 102.87 0)
+    (property "Reference" "左J2" (at 25.4 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 28.575 99.06 0)
@@ -3030,7 +3045,7 @@
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "左J1") (unit 1)
+          (reference "左J2") (unit 1)
         )
       )
     )
@@ -3109,7 +3124,7 @@
     (property "Value" "SW_Push" (at 48.26 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 48.26 149.86 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B" (at 48.26 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 48.26 149.86 0)
@@ -3316,7 +3331,7 @@
     (property "Value" "MountingHole" (at 109.22 257.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 106.68 256.54 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 106.68 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 256.54 0)
@@ -3366,7 +3381,7 @@
     (property "Value" "MountingHole" (at 83.82 267.9699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 81.28 266.7 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 81.28 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 266.7 0)
@@ -3593,7 +3608,7 @@
     (property "Value" "MountingHole" (at 109.22 262.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 106.68 261.62 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 106.68 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 261.62 0)
@@ -3617,7 +3632,7 @@
     (property "Value" "MountingHole" (at 83.82 257.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 81.28 256.54 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 81.28 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 256.54 0)
@@ -3641,7 +3656,7 @@
     (property "Value" "MountingHole" (at 109.22 252.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 106.68 251.46 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 106.68 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 251.46 0)
@@ -4440,7 +4455,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_PowerOnly_6P") (at 91.44 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93920db0-c2b3-49af-8ee9-8344191e536c)
-    (property "Reference" "右J5" (at 91.44 187.96 0)
+    (property "Reference" "右J1" (at 91.44 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_PowerOnly_6P" (at 91.44 190.5 0)
@@ -4462,32 +4477,7 @@
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "右J5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 35.56 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 943ba1fa-c038-4e89-b16e-53662ded791d)
-    (property "Reference" "J3" (at 36.83 130.175 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01_Socket" (at 36.83 132.715 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "beekeeb_lib:SinglePad" (at 35.56 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 35.56 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a1ad7187-36e3-41f6-b2cc-f3e9191e187e))
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "J3") (unit 1)
+          (reference "右J1") (unit 1)
         )
       )
     )
@@ -4496,7 +4486,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Socket") (at 27.94 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 951973ee-f1dc-4966-b92a-e7fd50ddaba6)
-    (property "Reference" "J2" (at 25.4 115.57 0)
+    (property "Reference" "J3" (at 25.4 115.57 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Alt. Battery" (at 27.94 110.744 0)
@@ -4513,7 +4503,7 @@
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -4554,7 +4544,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 27.94 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 996dcfe2-263a-46fc-9438-a2dbe2af8444)
-    (property "Reference" "右J1" (at 25.4 125.73 0)
+    (property "Reference" "右J2" (at 25.4 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 28.575 121.92 0)
@@ -4571,7 +4561,7 @@
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "右J1") (unit 1)
+          (reference "右J2") (unit 1)
         )
       )
     )
@@ -4925,7 +4915,7 @@
     (property "Datasheet" "~" (at 63.5 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1ad7187-36e3-41f6-b2cc-f3e9191e187e))
+    (pin "1" (uuid a1ad7187-36e3-41f6-b2cc-f3e9191e187f))
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
@@ -5301,7 +5291,7 @@
     (property "Value" "MountingHole" (at 83.82 262.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 81.28 261.62 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 81.28 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 261.62 0)
@@ -5800,7 +5790,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_PowerOnly_6P") (at 40.64 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e357b704-602a-4d3b-9f2a-0c0765a67c69)
-    (property "Reference" "左J5" (at 40.64 187.96 0)
+    (property "Reference" "左J1" (at 40.64 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_PowerOnly_6P" (at 40.64 190.5 0)
@@ -5822,7 +5812,7 @@
     (instances
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "左J5") (unit 1)
+          (reference "左J1") (unit 1)
         )
       )
     )
@@ -5869,7 +5859,7 @@
     (property "Value" "MountingHole" (at 83.82 252.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 81.28 251.46 0)
+    (property "Footprint" "♥Project_Library:MountingHole_2.2mm_M2" (at 81.28 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 251.46 0)
@@ -5977,7 +5967,7 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 48.26 160.02 0) (mirror x) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 48.26 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd874b25-a8df-492d-a461-0b95db40df9a)
     (property "Reference" "右S2" (at 48.26 167.64 0)
@@ -5986,7 +5976,7 @@
     (property "Value" "SW_Push" (at 48.26 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (at 48.26 165.1 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B" (at 48.26 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 48.26 165.1 0)

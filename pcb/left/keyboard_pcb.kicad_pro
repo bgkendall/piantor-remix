@@ -405,8 +405,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "♥Project_Library"
+    ],
+    "pinned_symbol_libs": [
+      "♥Project_Library"
+    ]
   },
   "meta": {
     "filename": "keyboard_pcb.kicad_pro",
@@ -443,7 +447,7 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
+        "track_width": 0.38,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -453,12 +457,11 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(J3-Pin_1)": "PWR",
+      "battery_l-{slash}r+": "PWR"
+    },
     "netclass_patterns": [
-      {
-        "netclass": "PWR",
-        "pattern": "GND"
-      },
       {
         "netclass": "PWR",
         "pattern": "VBUS"
@@ -466,6 +469,22 @@
       {
         "netclass": "PWR",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*raw*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*3V3*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*reset*"
       }
     ]
   },
