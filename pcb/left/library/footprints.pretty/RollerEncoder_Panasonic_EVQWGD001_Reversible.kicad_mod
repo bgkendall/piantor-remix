@@ -66,7 +66,7 @@
   (pad "S1" thru_hole circle (at -6.85 -6.2) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 46d64e42-a835-4087-9385-7200cb8ffeca))
   (pad "S1" thru_hole circle (at -6.85 6.2) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 8b15771f-138a-4119-8e0f-dc7f8b78ecbe))
   (pad "S2" thru_hole circle (at -5 -6.2) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp e6fcbcec-a83a-45ab-977b-c8fb3e3fed31))
-  (pad "S2" thru_hole circle (at -5 6.2) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 85697328-41e1-4d76-b8b4-9409fc4881ef))
+  (pad "S3" thru_hole circle (at -5 6.2) (size 1.6 1.6) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 85697328-41e1-4d76-b8b4-9409fc4881ef))
   (model "${KICAD_USER_LIB}/3D_models/PanasonicEncoder.STEP"
     (offset (xyz 8.3 -7 0))
     (scale (xyz 1 1 1))
