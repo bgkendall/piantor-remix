@@ -234,11 +234,39 @@
   (pad "" np_thru_hole circle (at 5.5 0) (size 1.7 1.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp f4dce435-7652-4427-87d7-3096d97db82c))
   (pad "1" smd roundrect (at -8.245 -3.75 180) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 7bca7e8e-9fb9-4379-93cd-7563fac7440f))
   (pad "1" smd roundrect (at 8.245 -3.75) (size 2.65 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1) (tstamp 43de6ce8-6f63-4b7d-981f-18e4d9d9cd77))
-  (pad "2" smd roundrect (at -3.245 -5.95) (size 2.65 2.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1) (tstamp 8f8b445c-94b6-4162-99c2-d57e09bfc85f))
+  (pad "2" smd custom (at -3.24 -5.95 180) (size 0.5 0.5) (layers "B.Cu" "B.Paste" "B.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -1.075 1.05)
+          (xy 1.075 1.05)
+          (xy 1.075 -0.31)
+          (xy 0.722 -0.47)
+          (xy 0.357 -0.751)
+          (xy 0.11 -1.05)
+          (xy -1.075 -1.05)
+        )
+        (width 0.5) (fill yes))
+    ) (tstamp d321be7b-0d86-45b0-9440-39d8155d555b))
   (pad "2" smd rect (at -1.55 -5.95 180) (size 1.2 2.6) (layers "B.Cu") (tstamp 193be813-e983-4d4c-b3cb-01587a12707e))
   (pad "2" thru_hole circle (at 0 -5.95) (size 3.3 3.3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 300c7edb-5725-4cfc-b995-de7ae35b397c))
   (pad "2" smd rect (at 1.55 -5.95) (size 1.2 2.6) (layers "F.Cu") (tstamp d122c288-b0e3-4e9a-8160-d00091c726b1))
-  (pad "2" smd roundrect (at 3.245 -5.95 180) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp bdea63f8-971a-4b66-83c5-e6b1c73f4c0a))
+  (pad "2" smd custom (at 3.245 -5.95) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -1.075 -1.05)
+          (xy 1.075 -1.05)
+          (xy 1.075 0.31)
+          (xy 0.722 0.47)
+          (xy 0.357 0.751)
+          (xy 0.11 1.05)
+          (xy -1.075 1.05)
+        )
+        (width 0.5) (fill yes))
+    ) (tstamp bdea63f8-971a-4b66-83c5-e6b1c73f4c0a))
   (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_Kailh_Choc.step"
     (offset (xyz -10 6 0.12))
     (scale (xyz 1 1 1))
