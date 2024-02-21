@@ -2969,30 +2969,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 261.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 048c6a4f-7efd-46d9-bb0f-ff7b6bb6ff98)
-    (property "Reference" "MB3" (at 33.02 260.3499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 33.02 262.8899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "beekeeb_lib:mousebites" (at 30.48 261.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 261.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "MB3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D") (at 198.12 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0695fa6a-adf3-4f42-ad25-4bf7d69ce917)
@@ -3668,30 +3644,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 256.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3fada296-287e-4c5d-a2d7-b65eae35a9a0)
-    (property "Reference" "MB2" (at 33.02 255.2699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 33.02 257.8099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "beekeeb_lib:mousebites" (at 30.48 256.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 256.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "MB2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 106.68 261.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fe0e21a-48cc-498f-80c6-27e0306514f0)
@@ -4126,30 +4078,6 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "右K43") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6d2f15d7-c025-402c-96e1-7736d6cabfe1)
-    (property "Reference" "MB1" (at 33.02 250.1899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 33.02 252.7299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "beekeeb_lib:mousebites" (at 30.48 251.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 251.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "MB1") (unit 1)
         )
       )
     )
@@ -5541,30 +5469,6 @@
       (project "keyboard_pcb"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "K14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 30.48 266.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cd8226e0-a6bc-45cd-9c50-e74e92e2c36b)
-    (property "Reference" "MB4" (at 33.02 265.4299 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 33.02 267.9699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "beekeeb_lib:mousebites" (at 30.48 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 30.48 266.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "keyboard_pcb"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "MB4") (unit 1)
         )
       )
     )
