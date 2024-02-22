@@ -4905,7 +4905,7 @@
     (property "Value" "Conn_01x01_Socket" (at 64.77 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "beekeeb_lib:SinglePad" (at 63.5 124.46 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" (at 63.5 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 63.5 124.46 0)
