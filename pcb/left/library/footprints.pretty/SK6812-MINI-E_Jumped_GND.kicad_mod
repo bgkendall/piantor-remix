@@ -19,7 +19,7 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e23a6042-f5fc-4cc1-b6b5-44aa5cd72d94))
-  (fp_rect (start 2.2 -1.21) (end 2.85 -0.39)
+  (fp_rect (start 2.325 -1.21) (end 2.85 -0.39)
     (stroke (width 0) (type solid)) (fill solid) (layer "F.Mask") (tstamp 8edde659-8dbd-43af-8c1e-884eb59f926e))
   (fp_line (start -1.6 -1.4) (end 1.6 -1.4)
     (stroke (width 0.12) (type solid)) (layer "Cmts.User") (tstamp 578af28d-b435-4d82-bbed-1e23dfcea0d3))
@@ -37,43 +37,37 @@
     (stroke (width 0.12) (type solid)) (layer "Edge.Cuts") (tstamp 82bd264d-3cb1-4ca5-8f9d-17aea51a5979))
   (pad "1" smd roundrect (at -2.55 0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 7664cf78-1325-43ee-b040-b3a616422fcf))
   (pad "2" smd roundrect (at -2.55 -0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp d1137d18-1e84-4756-8b21-7ece7ae4c1bc))
-  (pad "3" smd custom (at 2.975 -0.8) (size 0.25 0.82) (layers "F.Cu" "F.Paste" "F.Mask")
+  (pad "3" smd custom (at 3.1 -0.8) (size 0.25 0.82) (layers "F.Cu" "F.Paste" "F.Mask")
     (clearance 0.125)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
         (pts
-          (xy 0.425 0.41)
-          (xy 0.125 0.41)
-          (xy 0.125 -0.41)
-          (xy 0.425 -0.163577)
-        )
-        (width 0) (fill yes))
-      (gr_poly
-        (pts
           (xy -0.125 -0.41)
-          (xy -0.475 -0.41)
+          (xy -0.35 -0.41)
           (xy -0.125 0)
         )
         (width 0) (fill yes))
       (gr_poly
         (pts
           (xy -0.125 0.41)
-          (xy -0.475 0.41)
+          (xy -0.35 0.41)
           (xy -0.125 0)
         )
         (width 0) (fill yes))
     ) (tstamp 17307ba8-a3f3-4876-9305-fc52b461ca81))
+  (pad "3" smd roundrect (at 3.275 -0.8) (size 0.5 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
+    (chamfer_ratio 0.25) (chamfer bottom_right) (tstamp d6a5ab2a-da1a-4feb-b755-9a1d1c845ddd))
   (pad "4" smd roundrect (at 2.55 0.75) (size 1.7 0.82) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp d28b1fec-adeb-4222-bdb5-e1e187c091b1))
-  (pad "5" smd custom (at 1.95 -0.8) (size 0.5 0.82) (layers "F.Cu" "F.Paste" "F.Mask")
-    (clearance 0.1) (zone_connect 1)
+  (pad "5" smd custom (at 2.1375 -0.8) (size 0.875 0.82) (layers "F.Cu" "F.Paste" "F.Mask")
+    (clearance 0.1) (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly
         (pts
-          (xy 0.25 -0.41)
-          (xy 0.6 0)
-          (xy 0.25 0.41)
+          (xy 0.4375 -0.41)
+          (xy 0.6625 0)
+          (xy 0.4375 0.41)
         )
         (width 0) (fill yes))
     ) (tstamp 3a09ddbc-038b-4619-8469-6ac435e30d08))
