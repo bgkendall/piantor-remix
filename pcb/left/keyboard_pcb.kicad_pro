@@ -458,7 +458,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(J3-Pin_1)": "PWR",
+      "Net-(J2-Pin_1)": "PWR",
       "battery_l+{slash}r-": "PWR",
       "battery_l-{slash}r+": "PWR"
     },
